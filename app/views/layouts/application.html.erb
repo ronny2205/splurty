@@ -27,9 +27,23 @@
 		<div>	
 	</header>
 	<hr />
-	<br class="clear" />	
+	<br class="clear" />
 
-<%= yield %>
+
+<div class="container">
+	<%= yield %>
+</div>
+
+<div class="footer">
+    <div class="container">
+    	<div class="col-xs-6">
+    		<%= link_to "I want to see another quote", "#", :class => 'next-quote' %>
+    	</div>	
+    	<div class="col-xs-6 footer-blurb">
+    		Created in Maynard, MA by <a href="https://www.facebook.com/ronny.almog.9">Ronny Almog</a>
+    	</div>
+    </div>
+</div>
 
 </body>
 </html>
