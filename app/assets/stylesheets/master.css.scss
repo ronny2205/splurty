@@ -52,12 +52,12 @@ hr {
 h1 {
 	font-family: 'alex_brushregular', sans-serif;
 	font-weight:bold;
+	font-size:40px;
 }
 
 h2 {
 	font-family: 'quicksandlight', sans-serif;
 	font-weight:bold;
-	#font-size:48px;
 }
 
 .next-quote {
@@ -80,4 +80,24 @@ h2 {
 
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-size:20px;
+}
+
+::selection {
+  background-color: #BA182E;
 }
