@@ -1,21 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
 
 .clear {
 	clear:both;
 }
 
 .circle {
+	font-family: 'quicksandlight', sans-serif;
     font-weight:bold;
-    font-style: italic;
+    #font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: #BA182E;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 16px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -50,9 +52,8 @@ hr {
 }
 
 h1 {
-	font-family: 'alex_brushregular', sans-serif;
-	font-weight:bold;
-	font-size:40px;
+	font-family: 'Bad Script', cursive;
+	font-size:36px;
 }
 
 h2 {
@@ -61,7 +62,7 @@ h2 {
 }
 
 .next-quote {
-  color:#BA182E;
+  color:#BA182E !important;
   font-family: 'quicksandlight', sans-serif;
   font-size:20px;
   font-weight:bold;
