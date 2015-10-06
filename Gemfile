@@ -38,6 +38,8 @@ gem 'bootstrap-sass', '~> 3.3.4'
 # Adding a simple form
 gem 'simple_form'
 
+gem "factory_girl_rails", "~> 4.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

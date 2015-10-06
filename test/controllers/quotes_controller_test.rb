@@ -2,7 +2,7 @@ require 'test_helper'
 
 class QuotesControllerTest < ActionController::TestCase
   test "quote show page" do
-    quote = Quote.create(:author => 'Herold Pinter', :saying => 'Shall I put it around my neck?')
+    quote = FactoryGirl.create(:quote)
   	get :show, :id => quote.id
   	assert_response :success
   end
