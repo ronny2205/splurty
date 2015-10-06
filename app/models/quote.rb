@@ -7,7 +7,7 @@ class Quote < ActiveRecord::Base
     		name[0]
     	end
 
-    	initial.join + "#" + self.id.to_s
+    	initial.join + '#' + self.id.to_s
   	end
 
 end
